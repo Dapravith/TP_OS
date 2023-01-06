@@ -1,0 +1,34 @@
+
+1. mkdir CopyingFolder && cd CopyingFolder/ && touch copied.txt
+
+2. cp copied.txt ~/Documents/
+
+3. touch one.txt two.txt three.txt four.txt five.txt
+
+4. cp one.txt two.txt three.txt four.txt five.txt ~/CopyingFolder/
+
+5. cd ../ && cp -r CopyingFolder/ Desktop/
+
+6. cd Documents/ && touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+
+7. echo 1 > one_document.txt && echo 2 > two_document.txt && echo 3 > three_document.txt && echo 4 > four_document.txt && echo 5 > five_document.txt
+
+8. mv one_document.txt document_un.txt && mv two_document.txt document_deux.txt && mv three_document.txt document_trois.txt && mv four_document.txt document_quatre.txt && mv five_document.txt document_cinque.txt
+
+9. mkdir MoveFolder && mv document_*.txt MoveFolder/
+
+10. cd ../Desktop/ && mkdir FrenchFolder
+
+11. cd ~/Documents/MoveFolder/ && mv document_*.txt ~/Desktop/FrenchFolder/
+
+12. rm Desktop/FrenchFolder/document_deux.txt
+
+13. cd Documents/ && mkdir EmptyFolder
+
+14. cd EmptyFolder/ && touch deletefile.txt && mkdir DeleteFolder
+
+15. rm -d DeleteFolder
+
+16. rm -r EmptyFolder
+
+17. rm *.txt

@@ -1,0 +1,58 @@
+TP3 OS 
+
+=============================
+
+Practice 1
+=============================
+
+1.mkdir CopyingFolder && cd CopyingFolder && touch copied.txt
+
+2.cp copied.txt ../Documents
+
+3.touch one.txt two.txt three.txt four.txt five.txt
+
+4. cp one.txt two.txt three.txt four.txt five.txt ../CopyingFolder
+
+5. cp -r ../CopyingFolder ../Desktop
+
+=============================
+
+Practice 2
+
+6. touch one_docucment.txt 
+   touch two_document.txt 
+   touch three_document.txt 
+   touch four_document.txt 
+   touch five_document.txt
+
+7. echo "1"> One_document.txt && echo "2"> two_document.txt && echo "3"> three_document.txt && echo "4"> four_document.txt && echo "5"> five_document.txt
+
+8. mv one_document.txt document_un.txt && mv two_document.txt document_deux.txt && mv three_document.txt document_trois.txt && mv four_document.txt document_quatre.txt && mv five_document.txt document_cinque.txt
+
+9. mkdir MoveFolder && mv document_* ../MoveFolder
+
+10. mkdir ../Desktop/FrenchFolder
+
+11. cd ~/Documents/MoveFolder/ && mv document_*.txt ~/Desktop/FrenchFolder/
+
+==============================
+
+
+Practice 3
+==============================
+
+12.rm Desktop/FrenchFolder/document_deux.txt
+
+13. cd Documents && mkdir EmptyFolder
+
+14. touch deletefile.txt && mkdir DeleteFolder
+
+15. rmdir DeleteFolder
+
+16. rm -r ./EmptyFolder
+
+17. rm ../Desktop/FrenchFolder/*.txt
+
+============end===============
+
+

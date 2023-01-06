@@ -1,0 +1,26 @@
+Absolute path : ប្រើចេញពី​ root drive បច្ចុប្បន្ន​​ Example: 
+Relative path: ទៅកាន់​ file directory មួយ​ ចាប់ផ្ដើមពី​directory​បច្ចុប្បន្ន
+10
+mkdir ./vysingsun/Documents/TP01
+11
+sudo touch file1.txt
+12
+sudo nano file1.txt
+13
+
+14
+cat ../Documents/TP01
+1004
+
+
+1.- Absolute path : ប្រើចេញពី​ root drive បច្ចុប្បន្ន​​ ។​ Example: cat /home/Desktops
+  - Relative path: ទៅកាន់​ file directory មួយ​ ចាប់ផ្ដើមពី​directory​បច្ចុប្បន្ន។ Example: cd ../../home/Desktops/
+
+2. pwd សម្គាល់ user កំពុងប្រើប្រាស់ ស្ថិតនៅ ទីតាំងណាមួយ ។
+   ls មើល list ក្នុង root drive ។
+   cd សម្រាប់ផ្លាស់ប្តូរ directory មួយ ទៅកាន់ directory មួយទៀត​ ។
+   mkdir សម្រាប់ create folder ។ 
+   touch សម្រាប់ create files នៅក្នុង folder file ។
+   cat សម្រាប់ read data នៅក្នុង file ហើយ ចេញ output ។
+   echo សម្រាប់ print សរសេរ text ។
+
